@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+}
+.profile{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  
+}
+.profile-img{
+  height: 100px;
+  width: 100px;
+  margin-top: 50px;
+  border-radius: 5px;
+  padding-bottom: 8px;
+}
+.name{
+  font-family: Montserrat;
+  color: rgba(78, 81, 80, 1);
+  padding-bottom: 4px;
+}
+.address{
+  font-family: Montserrat;
+  color:rgba(169, 169, 169, 1);
+  font-size: 10px;
+  padding-left: 12px;
+}
+
+.container1{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  height: 250px;
+  width: 200px;
+  padding: 500px;
+  justify-content: center;
+  
+}
+.box{
+  border-radius: 12px;
+ background: #E5E5E5;
+  padding: 8px;
+  
+}

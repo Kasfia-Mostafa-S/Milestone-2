@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transition</title>
+  <style>
+    .box{
+      width: 100px;
+      height: 100px;
+      border: 2px solid tomato;
+      background-color: peachpuff;
+      transition: transform 3s;
+      /* transition: width 5s linear 3s, background-color 5s ease-in  2s; */
+    }
+    .box:hover{
+      transform: rotate(45deg) scale(1.5) translateX(150px);
+      /* width: 400px;
+      background-color: red; */
+    }
+  </style>
+</head>
+<body>
+    <ul>
+      <li>
+        The transform CSS property lets you rotate, scale, skew, or translate an element
+      </li>
+      <li>
+        The translate property allows you to change the position of elements. The translate property defines x- and y-coordinates of an element in 2D. 
+      </li>
+      <li>
+        CSS transitions allows you to change property values smoothly, over a given duration.. Mouse over the element below to see a CSS transition effect: CSS.
+      </li>
+    </ul>
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+</body>
+</html>
